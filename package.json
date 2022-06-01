@@ -11,11 +11,11 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/aws-kms": "1.154.0",
-    "@aws-cdk/aws-iam": "1.154.0",
-    "@aws-cdk/aws-lambda": "1.154.0",
-    "@aws-cdk/aws-stepfunctions": "1.154.0",
-    "@aws-cdk/aws-stepfunctions-tasks": "1.154.0",
+    "@aws-cdk/aws-kms": "1.158.0",
+    "@aws-cdk/aws-iam": "1.158.0",
+    "@aws-cdk/aws-lambda": "1.158.0",
+    "@aws-cdk/aws-stepfunctions": "1.158.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.158.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "jest": "^26.4.2",
@@ -24,11 +24,11 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-iam": "1.154.0",
-    "@aws-cdk/aws-kms": "1.154.0",
-    "@aws-cdk/aws-lambda": "1.154.0",
-    "@aws-cdk/aws-stepfunctions": "1.154.0",
-    "@aws-cdk/aws-stepfunctions-tasks": "1.154.0",
+    "@aws-cdk/aws-iam": "1.158.0",
+    "@aws-cdk/aws-kms": "1.158.0",
+    "@aws-cdk/aws-lambda": "1.158.0",
+    "@aws-cdk/aws-stepfunctions": "1.158.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.158.0",
     "aws-cdk-lib": "^2.22.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.16"
