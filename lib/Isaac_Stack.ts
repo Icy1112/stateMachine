@@ -17,7 +17,7 @@ export class IsaacStack extends cdk.Stack {
         const role = new iam.Role(this, 'ReplicationRole', {
             assumedBy: new iam.ServicePrincipal('s3.amazonaws.com'),
             path: '/service-role/'
-        }),
+        })
         const s3Bucket = new s3.Bucket(this, 's3-BucketIsaac', {
             //bucketName: 'Isaac-Bucket'
             removalPolicy: cdk.RemovalPolicy.RETAIN,
